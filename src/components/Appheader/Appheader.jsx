@@ -12,7 +12,7 @@ const AppHeader = () => {
   const handleLogout = () => {
     removeToken();
     setUser(undefined);
-    navigate("/signin", { replace: true });
+    navigate("/Secure-Nexis-Frontend/signin", { replace: true });
   };
 
   return (
@@ -23,7 +23,7 @@ const AppHeader = () => {
       <Space className="auth_buttons">
         {user ? (
           <>
-            <Button className="auth_button_login" href="/profile" type="link">
+            <Button className="auth_button_login" href="/" type="link">
               {user.username}
             </Button>
             <Button
@@ -36,7 +36,7 @@ const AppHeader = () => {
           </>
         ) : (
           <>
-            <Button className="auth_button_login" href="/signin" type="link">
+            <Button className="auth_button_login" href="/Secure-Nexis-Frontend/signin" type="link">
               Login
             </Button>
             <Button

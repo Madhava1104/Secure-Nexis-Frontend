@@ -10,12 +10,12 @@ import SignUp from "./pages/SignUp/SignUp";
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<SocialCards />} />
-      <Route path="/signin" element={<SignIn />} />
+      <Route path="/Secure-Nexis-Frontend" element={<SocialCards />} />
+      <Route path="/Secure-Nexis-Frontend/signin" element={<SignIn />} />
       <Route path="/signup" element={<SignUp />} />
       <Route
-        path="/profile"
-        element={getToken() ? <Profile /> : <Navigate to="/signin" />}
+        path="/Secure-Nexis-Frontend"
+        element={getToken() ? <Profile /> : <Navigate to="/Secure-Nexis-Frontend/signin" />}
       />
     </Routes>
   );

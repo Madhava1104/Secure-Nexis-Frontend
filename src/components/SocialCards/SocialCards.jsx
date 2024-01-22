@@ -58,7 +58,7 @@ const SocialCards = () => {
       <li className="nav-item">Services</li>
       <li className="nav-item">Contact</li>
       <li className="nav-item">
-          <Link to="/signin">Logout</Link>
+          <Link to="/Secure-Nexis-Frontend/signin">Logout</Link>
         </li>
 
     </ul>
