@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Secure-Nexis-Frontend/static/css/main.71c95212.css",
-    "main.js": "/Secure-Nexis-Frontend/static/js/main.122f07d5.js",
+    "main.js": "/Secure-Nexis-Frontend/static/js/main.93d668f4.js",
     "index.html": "/Secure-Nexis-Frontend/index.html",
     "main.71c95212.css.map": "/Secure-Nexis-Frontend/static/css/main.71c95212.css.map",
-    "main.122f07d5.js.map": "/Secure-Nexis-Frontend/static/js/main.122f07d5.js.map"
+    "main.93d668f4.js.map": "/Secure-Nexis-Frontend/static/js/main.93d668f4.js.map"
   },
   "entrypoints": [
     "static/css/main.71c95212.css",
-    "static/js/main.122f07d5.js"
+    "static/js/main.93d668f4.js"
   ]
 }
